@@ -14,11 +14,11 @@ function fetchData() {
         <p><strong>State/Province:</strong> ${result.state_province}</p>
         <p><strong>Country:</strong> ${result.country}</p>
         <p><strong>Station Name:</strong> ${result.station_name}</p>
-        <p><strong>Station Altitude:</strong> ${data.station_altitude} ft.</p>
-        <p><strong>Station Distance:</strong> ${data.station_distance_miles} miles</p>
-        <p><strong>Last Freeze:</strong> ${data.last_freeze}</p>
-        <p><strong>First Freeze:</strong> ${data.first_freeze}</p>
-        <p><strong>Growing Days:</strong> ${data.growing_days}</p>
+        <p><strong>Station Altitude:</strong> ${result.station_altitude} ft.</p>
+        <p><strong>Station Distance:</strong> ${result.station_distance_miles} miles</p>
+        <p><strong>Last Freeze:</strong> ${result.last_freeze}</p>
+        <p><strong>First Freeze:</strong> ${result.first_freeze}</p>
+        <p><strong>Growing Days:</strong> ${result.growing_days}</p>
         `;
     } else {
         resultDiv.innerHTML = `<p>No data found for ZIP Code: ${input}</p>`;
