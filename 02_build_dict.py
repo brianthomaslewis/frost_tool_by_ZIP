@@ -229,4 +229,4 @@ cleaned_output = (
 
 # STEP 7: Export cleaned output
 cleaned_output.to_csv('./data_output/frost_tool_dict.csv',index=False)
-cleaned_output.to_json('./data_output/frost_tool_dict.json', orient='records', lines=True)
+cleaned_output.to_json('./data_output/frost_tool_dict.json', orient='records')
