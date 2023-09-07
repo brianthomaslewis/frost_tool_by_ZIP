@@ -5,7 +5,7 @@ let data = [
 
 function fetchData() {
     let input = document.getElementById('zipcode-input').value;
-    let resultDiv = document.getElementById('results');
+    let resultDiv = document.getElementById('results'); 
     let result = data.find(d => d.zipcode === input);
 
     if (result) {
